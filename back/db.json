@@ -1,0 +1,54 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Spaguetti",
+      "description":"Esse é um spaguetti com massa italiana e molho de tomate tradicional",
+      "price": "30.00",
+      "url": "https://images.unsplash.com/photo-1591154405747-5ee97d563988?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHNwYWdoZXR0aXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "ingredients": "100 g de espaguete seco,250 g de carne moída,250 ml de molho de tomate,100 g de champignon picado,,2 dentes de alho picados,1/2 cebola picada,1 colher de sopa de molho inglês,Folhas de manjericão picadas,1 ramo de salsa picada,100 g de queijo parmesão ralado na hora,,Azeite extra-virgem,Sal,,Pimenta do reino"
+    
+    },
+    {
+      "id": 2,
+      "name": "Pizza",
+      "description":"Consiste em um disco de massa fermentada de farinha de trigo, coberto com molho de tomate e os ingredientses variados que normalmente incluem algum tipo de queijo.",
+      "price": "60.00",
+      "url": "https://images.unsplash.com/photo-1574126154517-d1e0d89ef734?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGl6emF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "ingredients": "100 g de espaguete seco,250 g de carne moída,250 ml de molho de tomate,100 g de champignon picado,,2 dentes de alho picados,1/2 cebola picada,1 colher de sopa de molho inglês,Folhas de manjericão picadas,1 ramo de salsa picada,100 g de queijo parmesão ralado na hora,,Azeite extra-virgem,Sal,,Pimenta do reino"
+    },
+    {
+      "id": 3,
+      "name": "Lasagna",
+      "description":" Um peito de frango. 500 g de queijo muçarela fatiado. 400 g de presunto fatiado.",
+      "price": "40.00",
+      "url": "https://images.unsplash.com/photo-1597289124948-688c1a35cb48?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bGFzYWduYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "ingredients": "100 g de espaguete seco,250 g de carne moída,250 ml de molho de tomate,100 g de champignon picado,,2 dentes de alho picados,1/2 cebola picada,1 colher de sopa de molho inglês,Folhas de manjericão picadas,1 ramo de salsa picada,100 g de queijo parmesão ralado na hora,,Azeite extra-virgem,Sal,,Pimenta do reino"
+    },
+    {
+      "id": 4,
+      "name": "Risotto",
+      "description":"Se fritam levemente as cebolas e o arbório, ou o arroz em manteiga, e se vai gradualmente deitando fundo de carne ou legumes ",
+      "price": "28.00",
+      "url": "https://images.unsplash.com/photo-1612204078213-a227dba74093?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cmlzb3R0b3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "ingredients": "100 g de espaguete seco,250 g de carne moída,250 ml de molho de tomate,100 g de champignon picado,,2 dentes de alho picados,1/2 cebola picada,1 colher de sopa de molho inglês,Folhas de manjericão picadas,1 ramo de salsa picada,100 g de queijo parmesão ralado na hora,,Azeite extra-virgem,Sal,,Pimenta do reino"
+    },
+    {
+      "id": 5,
+      "name": "Hamburger",
+      "description":"Duas carnes de 180g com molho especial, alface, tomate e cebola",
+      "price": "32.00",
+      "url": "https://images.unsplash.com/photo-1609167921669-4561a5b64e28?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FsZ2Fkb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "ingredients": "100 g de espaguete seco,250 g de carne moída,250 ml de molho de tomate,100 g de champignon picado,,2 dentes de alho picados,1/2 cebola picada,1 colher de sopa de molho inglês,Folhas de manjericão picadas,1 ramo de salsa picada,100 g de queijo parmesão ralado na hora,,Azeite extra-virgem,Sal,,Pimenta do reino"
+    },
+    {
+      "id": 6,
+      "name": "Sorvete",
+      "description":"Sorvete sabor morango,chocolate,limão,uva ou flocos",
+      "price": "12.00",
+      "url": "https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "ingredients": "100 g de espaguete seco,250 g de carne moída,250 ml de molho de tomate,100 g de champignon picado,,2 dentes de alho picados,1/2 cebola picada,1 colher de sopa de molho inglês,Folhas de manjericão picadas,1 ramo de salsa picada,100 g de queijo parmesão ralado na hora,,Azeite extra-virgem,Sal,,Pimenta do reino"
+    }
+   
+  ]
+}

@@ -1,0 +1,30 @@
+.header{
+height: 5rem;
+background: #302023;
+
+
+
+}
+
+.headerContainer{
+    height: 100%;
+max-width: 90%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+    img{
+        width: 7rem;
+    }
+    button{
+        
+        border: 0;
+        background: transparent;
+    }
+    #menuBtn{
+        cursor: pointer;
+    }
+    #menuIcon{
+        
+     color: white;
+    }
+}

@@ -1,0 +1,16 @@
+<div class="header">
+
+<div class="headerContainer">
+    
+  <a routerLink='/'>
+    <img src="../../../../assets/logo.jpg" alt="Logo">
+  </a>
+
+    <button id="menuBtn" mat-button [matMenuTriggerFor]="menu"><mat-icon id="menuIcon" aria-hidden="false" aria-label="Example home icon">menu</mat-icon></button>
+<mat-menu #menu="matMenu">
+  <button routerLink="/" mat-menu-item><mat-icon id="menuIcon" aria-hidden="false" aria-label="Example home icon">restaurant</mat-icon>Cardápio</button>
+  <button routerLink="quem-somos" mat-menu-item><mat-icon id="menuIcon" aria-hidden="false" aria-label="Example home icon">book</mat-icon>Quem somos</button>
+</mat-menu>
+</div>
+
+</div>

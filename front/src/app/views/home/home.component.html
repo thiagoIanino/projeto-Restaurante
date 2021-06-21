@@ -1,0 +1,23 @@
+<div class="homeContainer">
+
+<h1>Pratos do dia</h1>
+
+<div class="homeContent">
+    
+    <div *ngFor="let dish of dishes" >
+        <a routerLink="/dishes/{{dish.id}}">
+            <div class="prato">
+        <div class="pratoTexto">
+        <h2>{{dish.name}}</h2>
+        <p>{{dish.description}}</p>
+        <strong>{{dish.price}}R$</strong>
+   
+    </div>
+        <img [src]="dish.url" alt="Logo">
+    </div>
+</a>
+    </div>
+
+</div>
+
+</div>

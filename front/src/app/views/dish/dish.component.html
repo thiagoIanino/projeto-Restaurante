@@ -1,0 +1,22 @@
+<div class="dishContainer">
+
+    
+<div class="dishContent">
+   <div class="dish">
+    <img [src]="dish.url" alt="">
+
+    <div class="rightSideDish">
+        <h1>{{dish.name}}</h1>
+        <label for="">Descrição</label>
+  <p>{{dish.description}}</p>
+  <label for="">Ingredientes</label>
+  <p>{{dish.ingredients}}</p>
+  <strong>{{dish.price}} R$</strong>
+    </div>
+</div>
+<div class="dishButton">
+<button routerLink="/" id="voltar_btn" mat-raised-button >Voltar</button>
+</div>
+</div>
+
+</div>

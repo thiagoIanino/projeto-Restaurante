@@ -1,0 +1,64 @@
+.homeContainer{
+    
+    width: 100%;
+
+    h1{
+        font-family: 'Italianno', cursive;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 80px;
+        margin-bottom: 100px;
+    }
+}
+.homeContent{
+   
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap:  3.5rem;
+    grid-template-columns: 1fr 1fr;
+   
+
+    
+    a{
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+        
+    }
+}
+.prato{
+    margin: 0 auto;
+    border-radius: 4px;
+    width: 100%;
+    height: 170px;
+    background: white;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+
+  .pratoTexto{
+      height: 100%;
+      max-width: 89%;
+      margin: 0 auto;
+      grid-column-start: 1;
+      grid-column-end: 2;
+ 
+  p{
+      font-size: 15px;
+  
+    display: block;
+    
+  }  
+
+}
+img{
+    border-radius: 0 4px 4px 0;
+    height: 170px;
+    width: 100%;
+    grid-column-start: 2;
+      grid-column-end: 3;
+}
+
+}
