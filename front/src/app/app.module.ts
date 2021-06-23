@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {MatInputModule} from '@angular/material/input';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -12,7 +12,12 @@ import { QuemComponent } from './views/quem/quem.component';
 import {HttpClientModule} from '@angular/common/http';
 import { DishComponent } from './views/dish/dish.component'
 import {MatButtonModule} from '@angular/material/button';
-
+import { CrudDishComponent } from './views/crud-dish/crud-dish.component';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { ModalModule } from 'ngx-bootstrap/modal';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms'
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -21,6 +26,8 @@ import {MatButtonModule} from '@angular/material/button';
     HeaderComponent,
     QuemComponent,
     DishComponent,
+    CrudDishComponent,
+
   
   ],
   imports: [
@@ -30,7 +37,14 @@ import {MatButtonModule} from '@angular/material/button';
     MatMenuModule,
     MatIconModule,
     HttpClientModule,
-    MatButtonModule
+    MatButtonModule,
+    ButtonsModule,
+    ModalModule.forRoot(),
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

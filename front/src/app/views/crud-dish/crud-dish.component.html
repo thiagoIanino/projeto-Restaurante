@@ -1,0 +1,91 @@
+<div class="crudDishContainer">
+
+<div class="crudDishContent">
+ <div class="topContainer">
+   <h2>Lista de pratos</h2>
+   <button type="button" class="btn btn-success" (click)="openModal(template)">
+    Criar prato
+  </button>
+ 
+
+
+
+  <ng-template #template >
+    <div class="modal-header">
+      <h4 class="modal-title pull-left">Modal</h4>
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      
+    <form action="" [formGroup]="form" class="modalForm">
+      <mat-form-field >
+        <mat-label>Nome</mat-label>
+        <input matInput formControlName="name"  name="name" >
+      </mat-form-field>
+      <mat-form-field >
+        <mat-label>Descrição</mat-label>
+        <input matInput formControlName="description"  name="description" >
+      </mat-form-field>
+      <mat-form-field >
+        <mat-label>Ingredientes</mat-label>
+        <input matInput formControlName="ingredients" name="ingredients" >
+      </mat-form-field>
+      <mat-form-field >
+        <mat-label>Preço</mat-label>
+        <input matInput formControlName="price"  name="price" >
+      </mat-form-field>
+      <mat-form-field >
+        <mat-label>Url da imagem</mat-label>
+        <input matInput formControlName="url"  name="url" >
+      </mat-form-field>
+     
+    
+      <button  *ngIf="modalBtnsCad " type="button" class="btn btn-success" (click)="cadastrarPrato()">
+        Criar prato
+</button>
+    
+      <button *ngIf="!modalBtnsCad" type="button" class="btn btn-warning" (click)="alterarPrato()">
+        Alterar
+      </button>
+   
+    
+   
+    
+    </form>
+
+    </div>
+  </ng-template>
+
+
+ </div>
+        <table>
+          <thead>
+            <tr >
+              <th >Id</th>
+              <th> Nome</th>
+              <th >Preço</th>
+              <th ></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let dish of dishes">
+              <td>{{dish.id}}</td>
+              <td>{{dish.name}}</td>
+              <td>{{dish.price}}</td>
+              <td class="btns"><button (click)="listarAlterar(template,dish)" type="button" class="btn btn-warning">
+                <mat-icon id="Icon" aria-hidden="false" aria-label="Example home icon">editar</mat-icon>
+              </button>
+              <button type="button" class="btn btn-danger" (click)="deletarPrato(dish.id)">
+                <mat-icon id="Icon" aria-hidden="false" aria-label="Example home icon">delete</mat-icon>
+              </button>
+              </td>
+                
+            </tr>
+          
+          </tbody>
+          </table>
+    </div>
+
+</div>

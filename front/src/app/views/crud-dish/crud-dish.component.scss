@@ -1,0 +1,75 @@
+.crudDishContainer{
+width: 100%;
+
+}
+.topContainer{
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+
+h2{
+    font-size: 25px;
+}
+
+
+}
+.modalCrud{
+    margin-top: 400px;
+}
+
+.modalForm{
+  display: flex;
+  flex-direction: column;
+}
+.crudDishContent{
+margin: 130px auto;
+max-width: 70%;
+
+table{
+    width: 100%;
+    border: 1px black solid;
+  text-align: center;
+    thead{
+        border-radius: 3px 3px 0 0;
+        background-color: black;
+        color: white;
+        
+
+    }
+tr{
+    border-bottom: solid 1px black;
+    
+}
+}
+.btns{
+    display: flex;
+    height: 3rem;
+    justify-content: flex-end;
+    align-items: center;
+
+    button{
+        border-radius: 5px;
+    
+        #Icon{
+color: white;
+        }
+
+    }
+
+    
+}
+tbody{
+    height: 3rem;
+    border-top: 1px black solid;
+    background: white;
+    
+
+    button{
+        height: 2rem;
+        width: 50px;
+        margin-right: 8px;
+    }
+}
+
+
+}
